@@ -17,3 +17,17 @@ function addElementToEndOfArray(array, element){
   var x =  [array, element]
   return x
 }
+
+function accessElementInArray(array, index){
+  return array[index]
+}
+
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.shift()
+  return array
+}
+
+function removeElementFromBeginningOfArray(array){
+  var x = array.slice(1)
+  return x
+}
